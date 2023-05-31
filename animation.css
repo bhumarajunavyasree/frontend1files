@@ -1,0 +1,26 @@
+.image1{
+    height: 10cm;
+    width: 10cm;
+    margin-left: 60px;
+    transition-duration: 5s;
+    animation-name: BHAVYASREE;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes BHAVYASREE{
+        50%{
+            height:5cm;
+            width:3cm;
+            float:right;
+        }
+        40%{
+            height: 5cm;
+            width: 10cm;
+            float: left;
+        }
+        30%{
+            height: 4cm;
+            width: 9cm;
+            float: initial;
+        }
+    }

@@ -1,0 +1,19 @@
+.image1{
+    height: 20cm;
+    width: 15cm;
+    transition-duration: 2s;
+}
+.image2{
+    height: 15cm;
+    width: 10cm;
+    transition-duration: 2s;
+}
+.image3{
+    height: 14cm;
+    width: 12cm;
+    transition-duration: 5s;
+}
+.image1:hover{transform:rotate(180deg);}
+.image2:hover{transform:rotate(180deg);}
+.image3:hover{transform:rotate(180deg);}
+.image4:hover{transform:rotate(180deg);}

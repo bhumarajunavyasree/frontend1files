@@ -1,0 +1,21 @@
+div{
+    height: 250px;
+    width: 200px;
+    background-color: aqua;
+    transition-duration: 3s;
+}
+div:hover{
+    transform: rotate(180deg);
+}
+img{
+    height: 20cm;
+    width: 20cm;
+    transition-duration: 2s;
+}
+img:hover{
+    transform: rotate(180deg);
+}
+div:hover{
+    transform: translatey(250px);
+}
+

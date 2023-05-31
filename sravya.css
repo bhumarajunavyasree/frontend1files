@@ -1,0 +1,21 @@
+.div1{
+    height:5cm;
+    width:4cm;
+    background-color: chocolate;
+    transition-duration:2s;
+
+}
+.div1:hover{
+    height:5cm;
+    width:2cm;
+    background-color: blueviolet;
+}
+img{
+    height:5cm;
+    width:4cm;
+    transition-duration: 2s;
+}
+img:hover{
+    height: 25cm;
+    width: 30cm;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="p1">GOOD MORNING</h1>
+    <h2 class="p1">GOOD AFTERNOON</h2>
+    <p class="p1">GOOD NIGHT</p>
+    <button ondblclick="prn()">click</button>
+</body>
+<body>
+    <script>
+        document.write("WELCOME")
+        function prn(){
+        var data=document.getElementsByClassName("p1")
+        for(i=0;i<3;i++)
+        console.log(data[i].innerHTML)
+    }
+    localStorage.setItem("name","bhavyasree")
+    console.log(localStorage.getItem("name"))
+    localStorage.setItem("name","bhumaraju")
+    console.log(localStorage.getItem("name"))
+    function str(){
+        this.name="sravya",
+        this.email="sravyasri@gmail.com"
+    }
+    str.prototype.num=1456125465132
+    let a=new str();
+    console.log(a.name)
+    console.log(a.num)
+
+
+    </script>
+    
+</body>
+</html>
